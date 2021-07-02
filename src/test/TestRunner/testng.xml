@@ -1,0 +1,19 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="com.utils.Listeners.TestListener"></listener>
+        <listener class-name="com.utils.Listeners.AnnotationTransformer"></listener>
+
+    </listeners>
+    <test 
+          name="POMframeworkWithExtentReport">
+        
+        <classes>
+            <class name="com.tests.LoginTest"></class>
+        </classes>
+        
+
+    </test>
+</suite>
