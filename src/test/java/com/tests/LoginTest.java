@@ -31,7 +31,7 @@ public class LoginTest extends BaseTest{
     @Test(priority = 3)
     public void valid_emailAndPassword_LoginTest(Method method){
         startTest(method.getName(), "valid credintials");
-        homePage.goToOpenCart().goToLoginPage().logIntoOpenCart("kmtarekfca@yahoo.com", "admin").verify_ValidLogin("Editsss Account");
+        homePage.goToOpenCart().goToLoginPage().logIntoOpenCart("kmtarekfca@yahoo.com", "admin").verify_ValidLogin("Edit Account");
 
     }
 
