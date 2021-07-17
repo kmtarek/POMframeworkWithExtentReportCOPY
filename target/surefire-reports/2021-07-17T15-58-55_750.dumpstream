@@ -1,0 +1,4 @@
+# Created at 2021-07-17T15:58:57.182
+Boot Manifest-JAR contains absolute paths in classpath 'E:\POMframeworkWithExtentReportCOPY\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
