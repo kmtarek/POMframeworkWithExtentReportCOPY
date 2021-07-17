@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 4, Errors: 0, Skipped: 4, Time elapsed: 25.988 s <<< FAILURE! - in TestSuite
+com.tests.LoginTest.invalid_emailAndPassword_LoginTest1[public void com.tests.LoginTest.invalid_emailAndPassword_LoginTest1(java.lang.reflect.Method)](2)  Time elapsed: 1.552 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <span class="hidden-xs hidden-sm hidden-md"> could not be scrolled into view
+Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
+System info: host: 'LAPTOP-EM2ICHMI', ip: '192.168.58.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [35fc842d-364d-456b-8697-5efb65681659, clickElement {id=84aa1b30-d824-47ff-afb4-a9d9bbf32c2e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:debuggerAddress: localhost:62371, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 16116, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, se:cdp: ws://localhost:62371/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (35fc842d-364d-456b-8697-5efb65681659)] -> xpath: //span[contains(text(),'My Account')]]
+Session ID: 35fc842d-364d-456b-8697-5efb65681659
+	at com.tests.LoginTest.invalid_emailAndPassword_LoginTest1(LoginTest.java:14)
+
+com.tests.LoginTest.invalid_emailAndPassword_LoginTest2[public void com.tests.LoginTest.invalid_emailAndPassword_LoginTest2(java.lang.reflect.Method)](2)  Time elapsed: 1.666 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <span class="hidden-xs hidden-sm hidden-md"> could not be scrolled into view
+Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
+System info: host: 'LAPTOP-EM2ICHMI', ip: '192.168.58.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [35fc842d-364d-456b-8697-5efb65681659, clickElement {id=bf0b2f55-be3d-4d38-b325-38ebdb39fa95}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:debuggerAddress: localhost:62371, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 16116, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, se:cdp: ws://localhost:62371/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (35fc842d-364d-456b-8697-5efb65681659)] -> xpath: //span[contains(text(),'My Account')]]
+Session ID: 35fc842d-364d-456b-8697-5efb65681659
+	at com.tests.LoginTest.invalid_emailAndPassword_LoginTest2(LoginTest.java:21)
+
+com.tests.LoginTest.invalid_emailAndPassword_LoginTest3[public void com.tests.LoginTest.invalid_emailAndPassword_LoginTest3(java.lang.reflect.Method)](2)  Time elapsed: 1.473 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <span class="hidden-xs hidden-sm hidden-md"> could not be scrolled into view
+Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
+System info: host: 'LAPTOP-EM2ICHMI', ip: '192.168.58.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [35fc842d-364d-456b-8697-5efb65681659, clickElement {id=c19a0327-29db-4b76-a832-f11ab4f32716}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:debuggerAddress: localhost:62371, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 16116, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, se:cdp: ws://localhost:62371/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (35fc842d-364d-456b-8697-5efb65681659)] -> xpath: //span[contains(text(),'My Account')]]
+Session ID: 35fc842d-364d-456b-8697-5efb65681659
+	at com.tests.LoginTest.invalid_emailAndPassword_LoginTest3(LoginTest.java:28)
+
+com.tests.LoginTest.valid_emailAndPassword_LoginTest[public void com.tests.LoginTest.valid_emailAndPassword_LoginTest(java.lang.reflect.Method)](2)  Time elapsed: 1.461 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <span class="hidden-xs hidden-sm hidden-md"> could not be scrolled into view
+Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
+System info: host: 'LAPTOP-EM2ICHMI', ip: '192.168.58.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [35fc842d-364d-456b-8697-5efb65681659, clickElement {id=2fb81b74-7123-4862-aacf-38faa53ca446}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:debuggerAddress: localhost:62371, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 16116, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, se:cdp: ws://localhost:62371/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (35fc842d-364d-456b-8697-5efb65681659)] -> xpath: //span[contains(text(),'My Account')]]
+Session ID: 35fc842d-364d-456b-8697-5efb65681659
+	at com.tests.LoginTest.valid_emailAndPassword_LoginTest(LoginTest.java:34)
+

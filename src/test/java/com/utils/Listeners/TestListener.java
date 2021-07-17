@@ -1,12 +1,7 @@
 package com.utils.Listeners;
 
 
-import static com.utils.ExtentReports.ExtentManager.getExtentReports;
-import static com.utils.ExtentReports.ExtentTestManager.getTest;
-
 import com.aventstack.extentreports.Status;
-import java.util.Objects;
-
 import com.tests.BaseTest;
 import com.utils.Logs.Log;
 import org.openqa.selenium.OutputType;
@@ -15,6 +10,11 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+
+import java.util.Objects;
+
+import static com.utils.ExtentReports.ExtentManager.getExtentReports;
+import static com.utils.ExtentReports.ExtentTestManager.getTest;
 
 
 public class TestListener extends BaseTest implements ITestListener {
@@ -49,6 +49,7 @@ public class TestListener extends BaseTest implements ITestListener {
 
     @Override
     public void onTestFailure(ITestResult iTestResult) {
+
         Log.info(getTestMethodName(iTestResult) + " test is failed.");
 
         //Get driver from BaseTest and assign to local webdriver variable.

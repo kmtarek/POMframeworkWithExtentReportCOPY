@@ -1,10 +1,10 @@
 package com.tests;
 
-import static com.utils.ExtentReports.ExtentTestManager.startTest;
-
 import org.testng.annotations.Test;
 
 import java.lang.reflect.Method;
+
+import static com.utils.ExtentReports.ExtentTestManager.startTest;
 
 public class LoginTest extends BaseTest{
 
@@ -32,7 +32,7 @@ public class LoginTest extends BaseTest{
     public void valid_emailAndPassword_LoginTest(Method method){
         startTest(method.getName(), "valid credintials");
         homePage.goToOpenCart().goToLoginPage().logIntoOpenCart("kmtarekfca@yahoo.com", "admin").verify_ValidLogin("Edit Account");
-
+    System.out.println("ngrok test");
     }
 
 }
